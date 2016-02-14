@@ -1,0 +1,19 @@
+{
+  "name": "issueservice",
+  "version": "1.0.0",
+  "description": "Web Service for Comic book issues for  Motherboxx",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "junit": "^1.1.3",
+    "lodash": "^4.3.0",
+    "unit.js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "andrew.larsen",
+  "license": "ISC"
+}
