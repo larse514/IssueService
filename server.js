@@ -10,7 +10,7 @@ app.use('/', require('./routes'));
 
 //Dynamic port and address for Openshift, defaults to localhost
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
-var server_ip_address = process.env.hostname || '127.0.0.1'
+var server_ip_address = process.env.public-hostname || '127.0.0.1'
 
 //Listen on ports above
 app.listen(server_port, server_ip_address, function(){
